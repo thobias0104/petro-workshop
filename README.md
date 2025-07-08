@@ -2,7 +2,40 @@
 
 Este guia apresenta os comandos essenciais para realizar controle de versão.
 
-# git --help
+## Configuração Inicial
+
+```bash
+# Configurar nome de usuário
+git config --global user.name "Seu Nome"
+
+# Configurar email
+git config --global user.mail "seu@email.com"
+
+# Verificar configurações
+git config --list
+
+```
+
+## Comandos iniciais 
+```bash
+# Inicializa repositório
+$ git init
+
+# Clonar um repositório existente
+$ git clone https://github.com/usuario/repositorio.git
+
+# Adicionar arquivo ao repositório
+$ git add README.md
+
+# Push an existing repository from the command line
+$ git remote add origin https://github.com/thobias0104/petro-workshop.git
+$ git branch -M main
+$ git push -u origin main
+```
+
+## Lista de comandos
+```bash
+$ git --help
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
@@ -36,10 +69,4 @@ collaborate (see also: git help workflows)
    fetch     Download objects and refs from another repository
    pull      Fetch from and integrate with another repository or a local branch
    push      Update remote refs along with associated objects
-
-
-# git init
-Inicializa repositório
-
-# git add README.md
-Adicionar arquivo ao repositório
+```
