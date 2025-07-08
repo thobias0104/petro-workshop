@@ -2,7 +2,7 @@
 
 Este guia apresenta os comandos essenciais para realizar controle de versão.
 
-## Configuração Inicial
+## Configuração Inicial Git
 
 ```bash
 # Configurar nome de usuário
@@ -16,7 +16,7 @@ git config --list
 
 ```
 
-## Comandos iniciais 
+## Comandos iniciais repositório
 ```bash
 # Inicializa repositório
 $ git init
@@ -31,6 +31,10 @@ $ git add README.md
 $ git remote add origin https://github.com/thobias0104/petro-workshop.git
 $ git branch -M main
 $ git push -u origin main
+
+# Atualizar arquivo ao repositório
+$ git commit README.md
+$ git push
 ```
 
 ## Lista de comandos
